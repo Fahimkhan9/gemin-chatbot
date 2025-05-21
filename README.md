@@ -25,6 +25,15 @@ This is a full-stack chatbot application built with **Next.js**, **Supabase** au
 
 ---
 
+
+## 🗃️ Database Setup
+
+Run the SQL file `/database/setup.sql` to create the `chat` table in any Supabase (PostgreSQL) environment.
+
+```bash
+psql < setup.sql
+
+
 ## 🧪 How to Run Locally
 
 ### 1. Clone the Repo
