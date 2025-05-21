@@ -12,14 +12,14 @@ export function useLogout(redirectTo: string = '/login') {
 
     const { error } = await supabase.auth.signOut()
 
+     
     if (error) {
       console.error('Logout error:', error.message)
       setLoading(false)
       return
     }
-
-     router.push(redirectTo)
-    router.refresh()
+router.push(redirectTo)
+   
     setLoading(false)
   }
 

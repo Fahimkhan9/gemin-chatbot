@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function HomePage() {
@@ -7,7 +8,7 @@ function HomePage() {
         <div className="max-w-xl">
           <h1 className="text-5xl my-5 font-bold">Welcome to Gemini ChatBot</h1>
          
-          <button className="btn btn-primary">Get Started</button>
+          <Link href='/dashboard'><button className="btn btn-primary">Get Started</button></Link>
         </div>
       </div>
     </div>
