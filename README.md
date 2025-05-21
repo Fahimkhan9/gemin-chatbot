@@ -33,7 +33,7 @@ Run the SQL file `/database/setup.sql` to create the `chat` table in any Supabas
 ```bash
 psql < setup.sql
 
-
+```
 ## 🧪 How to Run Locally
 
 ### 1. Clone the Repo
